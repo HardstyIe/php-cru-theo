@@ -6,7 +6,7 @@ class BDD
   public function __construct()
   {
     try {
-      $this->bdd = new PDO('mysql:host=localhost;dbname=restaurants;charset=utf8', 'root', 'f6KA@2,9Em[vbDF;~dP/VjrqFaUD');
+      $this->bdd = new PDO('mysql:host=localhost;dbname=;charset=utf8', '', '');
     } catch (PDOException $e) {
       print($e);
     }
